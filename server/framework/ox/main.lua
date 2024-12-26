@@ -15,10 +15,12 @@ function Framework.RemoveMoney(playerId, type, amount)
 end
 
 function Framework.GetJob()
+    print("server get job")
     return ---@todo
 end
 
 function Framework.GetGang()
+    print("server get gang")
     return ---@todo
 end
 
