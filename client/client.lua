@@ -631,6 +631,10 @@ RegisterNetEvent("illenium-appearance:client:openClothingShopMenu", function(isP
     OpenMenu(isPedMenu, "default")
 end)
 
+RegisterNetEvent("illenium-appearance:client:openMenuType", function(data)
+    OpenMenu(data.isPedMenu, data.menuType, data.menuData)
+end)
+
 RegisterNetEvent("illenium-appearance:client:OpenBarberShop", OpenBarberShop)
 
 RegisterNetEvent("illenium-appearance:client:OpenTattooShop", OpenTattooShop)
